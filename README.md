@@ -23,11 +23,11 @@ Raw Image
 -
 源图1
 
-![Ex1](/Markdown/ROI1.png)
+![Ex1](/Markdown/ROI1.jpg)
 
 源图2
 
-![Ex1](/Markdown/ROI2.png)
+![Ex1](/Markdown/ROI2.jpg)
 
 各自权重分别为0.3和0.7的叠加结果(丑的一笔)
 
