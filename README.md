@@ -9,7 +9,6 @@ Raw Image
 使用压缩尺寸为220的Look-up Table的压缩结果
 
 ![Ex1](/Markdown/LUT2.png)
-<<<<<<< HEAD
 
 分别使用At、指针、STL迭代器遍历图像元素
 -
@@ -18,5 +17,4 @@ Raw Image
 ![Ex1](/Markdown/Traverse.png)
 
 可以看出用指针进行遍历速度最快，但不安全，用OpenCV自带的迭代器(应该是继承自STL)速度最慢，但不会出现越界等危险
-=======
->>>>>>> 6e03fd4ddf2f4a4c8cb5e91a6a8506a424678efc
+
