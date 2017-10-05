@@ -1,7 +1,7 @@
 # OpenCVPractise
 My OpenCV codes for Practise(2.4.13)
 
-利用LUT进行压缩图片
+利用LUT进行压缩图片，配合亮度、对比度调节
 -
 Raw Image
 
@@ -10,6 +10,10 @@ Raw Image
 使用压缩尺寸为220的Look-up Table的压缩结果
 
 ![Ex1](/Markdown/LUT2.png)
+
+将压缩、亮度调节、对比度调节融入同一工程之中，使用TrackBar协同调节
+
+![Ex1](/Markdown/LUT3.png)
 
 分别使用At、指针、STL迭代器遍历图像元素
 -
