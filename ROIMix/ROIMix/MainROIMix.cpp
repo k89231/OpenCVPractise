@@ -26,7 +26,9 @@ int main()
 	src1ROI = src1(Rect(x, y, width, height));
 	src2ROI = src2(Rect(178, 50, width, height));
 	namedWindow("After Mixing", WINDOW_NORMAL);
-	createTrackbar("Adjusting weights", "After Mixing", &CurrentValue, MaxValue, On_Trackbar);
+	char Barname[50];
+	sprintf_s(Barname, "ШЈжи: %d", MaxValue);
+	createTrackbar(Barname, "After Mixing", &CurrentValue, MaxValue, On_Trackbar);
 
 	On_Trackbar(CurrentValue, 0);
 
@@ -39,7 +41,7 @@ int main()
 
 void On_Trackbar(int, void*)
 {
-	WeightSrc1 = (double)getTrackbarPos("Adjusting weights", "After Mixing") / MaxValue;
+	WeightSrc1 = (double)CurrentValue / MaxValue;
 	WeighrSrc2 = 1.0 - WeightSrc1;
 	addWeighted(src1ROI, WeightSrc1, src2ROI, WeighrSrc2, 0, src2ROI);
 	imshow("After Mixing", src2);

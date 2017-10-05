@@ -36,3 +36,15 @@ Raw Image
 各自权重分别为0.3和0.7的叠加结果(丑的一笔)
 
 ![Ex1](/Markdown/ROI3.png)
+
+通道提取和混合
+-
+两个子图
+
+<figure class="half">
+    <img src="/Markdown/smaller.jpg">
+    <img src="/Markdown/bigger.jpg">
+</figure>
+混合后
+
+![Ex1](/Markdown/merged.jpg)
