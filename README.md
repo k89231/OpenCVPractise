@@ -41,10 +41,11 @@ Raw Image
 -
 两个子图
 
-<figure class="half">
-    <img src="/Markdown/smaller.jpg" width="300"/>
-    <img src="/Markdown/bigger.jpg" width="300"/>
-</figure>
+<center class="half">
+    <img src="/Markdown/smaller.jpg" width="200"/>
+    <img src="/Markdown/bigger.jpg" width="200"/>
+</center>
+
 混合后
 
 ![Ex1](/Markdown/merged.jpg)
