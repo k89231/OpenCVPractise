@@ -42,8 +42,8 @@ Raw Image
 两个子图
 
 <figure class="half">
-    <img src="/Markdown/smaller.jpg">
-    <img src="/Markdown/bigger.jpg">
+    <img src="/Markdown/smaller.jpg" width="300"/>
+    <img src="/Markdown/bigger.jpg" width="300"/>
 </figure>
 混合后
 
