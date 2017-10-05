@@ -46,6 +46,6 @@ Raw Image
     <img src="/Markdown/bigger.jpg" width="200"/>
 </center>
 
-混合后
+提取了队徽图的R通道，混合后如下所示
 
 ![Ex1](/Markdown/merged.jpg)
