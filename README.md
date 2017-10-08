@@ -70,4 +70,4 @@ Raw Image
 
 双边滤波
 
-![Ex1](/Markdown/Bilatetal.png)
+![Ex1](/Markdown/Bilateral.png)
