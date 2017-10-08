@@ -49,3 +49,25 @@ Raw Image
 提取了队徽图的R通道，混合后如下所示
 
 ![Ex1](/Markdown/merged.jpg)
+
+空域滤波对比
+-
+原图
+
+![Ex1](/Markdown/SpatialRaw.png)
+
+均值滤波
+
+![Ex1](/Markdown/Mean.png)
+
+中指滤波
+
+![Ex1](/Markdown/Median.png)
+
+高斯滤波
+
+![Ex1](/Markdown/Gaussian.png)
+
+双边滤波
+
+![Ex1](/Markdown/Bilatetal.png)

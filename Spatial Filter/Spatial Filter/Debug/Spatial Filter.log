@@ -1,0 +1,5 @@
+﻿  FilterMain.cpp
+d:\thu\junior1\digital image processing\cvpractice\spatial filter\spatial filter\filtermain.cpp(14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+d:\thu\junior1\digital image processing\cvpractice\spatial filter\spatial filter\filtermain.cpp(15): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  Spatial Filter.vcxproj -> D:\THU\junior1\Digital Image Processing\CVPractice\Spatial Filter\Debug\Spatial Filter.exe
+  Spatial Filter.vcxproj -> D:\THU\junior1\Digital Image Processing\CVPractice\Spatial Filter\Debug\Spatial Filter.pdb (Full PDB)
